@@ -818,3 +818,237 @@ java.io.IOException: The requested operation cannot be performed on a file with 
 [2018-09-12 10:55:17,368] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
 [2018-09-12 11:05:17,365] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
 [2018-09-12 11:15:17,341] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2018-09-12 11:19:42,555] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	compression.type = producer
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 0.10.2-IV0
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,TRACE:TRACE,SASL_SSL:SASL_SSL,PLAINTEXT:PLAINTEXT
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = D:programsApacheKafkakafka-trainingkafkalogs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.format.version = 0.10.2-IV0
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 1440
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 3
+	offsets.topic.segment.bytes = 104857600
+	port = 9092
+	principal.builder.class = class org.apache.kafka.common.security.auth.DefaultPrincipalBuilder
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = null
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	unclean.leader.election.enable = true
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2018-09-12 11:19:42,648] INFO starting (kafka.server.KafkaServer)
+[2018-09-12 11:19:42,664] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2018-09-12 11:19:43,101] INFO Cluster ID = ZaXU69UmQP6Np7JjrYetJw (kafka.server.KafkaServer)
+[2018-09-12 11:19:43,132] INFO [ThrottledRequestReaper-Fetch], Starting  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2018-09-12 11:19:43,179] INFO [ThrottledRequestReaper-Produce], Starting  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2018-09-12 11:19:43,194] INFO Loading logs. (kafka.log.LogManager)
+[2018-09-12 11:19:43,257] WARN Found a corrupted index file due to requirement failed: Corrupt time index found, time index file (D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs\test-0\00000000000000000000.timeindex) has non-zero size but the last timestamp is 0 which is no larger than the first timestamp 1536735718763}. deleting D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs\test-0\00000000000000000000.timeindex, D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs\test-0\00000000000000000000.index and rebuilding index... (kafka.log.Log)
+[2018-09-12 11:19:43,288] INFO Recovering unflushed segment 0 in log test-0. (kafka.log.Log)
+[2018-09-12 11:19:43,304] INFO Completed load of log test-0 with 1 log segments and log end offset 3 in 63 ms (kafka.log.Log)
+[2018-09-12 11:19:43,319] INFO Logs loading complete in 125 ms. (kafka.log.LogManager)
+[2018-09-12 11:19:43,413] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2018-09-12 11:19:43,413] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2018-09-12 11:19:43,491] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.Acceptor)
+[2018-09-12 11:19:43,506] INFO [Socket Server on Broker 0], Started 1 acceptor threads (kafka.network.SocketServer)
+[2018-09-12 11:19:43,522] INFO [ExpirationReaper-0], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-09-12 11:19:43,538] INFO [ExpirationReaper-0], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-09-12 11:19:43,600] INFO Creating /controller (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2018-09-12 11:19:43,709] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2018-09-12 11:19:43,709] INFO 0 successfully elected as leader (kafka.server.ZookeeperLeaderElector)
+[2018-09-12 11:19:43,990] INFO [ExpirationReaper-0], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-09-12 11:19:43,990] INFO New leader is 0 (kafka.server.ZookeeperLeaderElector$LeaderChangeListener)
+[2018-09-12 11:19:43,990] INFO [ExpirationReaper-0], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-09-12 11:19:43,990] INFO [ExpirationReaper-0], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-09-12 11:19:44,006] INFO [GroupCoordinator 0]: Starting up. (kafka.coordinator.GroupCoordinator)
+[2018-09-12 11:19:44,006] INFO [GroupCoordinator 0]: Startup complete. (kafka.coordinator.GroupCoordinator)
+[2018-09-12 11:19:44,006] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2018-09-12 11:19:44,037] INFO Will not load MX4J, mx4j-tools.jar is not in the classpath (kafka.utils.Mx4jLoader$)
+[2018-09-12 11:19:44,068] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2018-09-12 11:19:44,130] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2018-09-12 11:19:44,130] INFO Registered broker 0 at path /brokers/ids/0 with addresses: EndPoint(user-PC,9092,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.utils.ZkUtils)
+[2018-09-12 11:19:44,177] INFO [Kafka Server 0], started (kafka.server.KafkaServer)
+[2018-09-12 11:20:24,940] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions car-data-0,car-data-1 (kafka.server.ReplicaFetcherManager)
+[2018-09-12 11:20:24,971] INFO Completed load of log car-data-0 with 1 log segments and log end offset 0 in 15 ms (kafka.log.Log)
+[2018-09-12 11:20:24,971] INFO Created log for partition [car-data,0] in D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs with properties {compression.type -> producer, message.format.version -> 0.10.2-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> true, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2018-09-12 11:20:25,003] INFO Completed load of log car-data-1 with 1 log segments and log end offset 0 in 16 ms (kafka.log.Log)
+[2018-09-12 11:20:25,003] INFO Created log for partition [car-data,1] in D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs with properties {compression.type -> producer, message.format.version -> 0.10.2-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> true, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2018-09-12 11:21:11,927] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2018-09-12 11:21:12,083] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions car-data-1,car-data-0 (kafka.server.ReplicaFetcherManager)
+[2018-09-12 11:21:12,099] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions  (kafka.server.ReplicaFetcherManager)
+[2018-09-12 11:21:12,115] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions car-data-0 (kafka.server.ReplicaFetcherManager)
+[2018-09-12 11:21:12,208] INFO Log for partition car-data-0 is renamed to D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs\car-data-0.abb2815a673a4d49ba149bf9d5a4e885-delete and is scheduled for deletion (kafka.log.LogManager)
+[2018-09-12 11:21:12,224] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions car-data-1 (kafka.server.ReplicaFetcherManager)
+[2018-09-12 11:21:12,286] INFO Log for partition car-data-1 is renamed to D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs\car-data-1.552b486997674afa8a6bb0fd8a92795c-delete and is scheduled for deletion (kafka.log.LogManager)
+[2018-09-12 11:21:13,441] INFO Deleting index D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs\car-data-0.abb2815a673a4d49ba149bf9d5a4e885-delete\00000000000000000000.index (kafka.log.OffsetIndex)
+[2018-09-12 11:21:13,441] INFO Deleting index D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs\car-data-0\00000000000000000000.timeindex (kafka.log.TimeIndex)
+[2018-09-12 11:21:13,565] INFO Deleted log for partition car-data-0 in D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs\car-data-0.abb2815a673a4d49ba149bf9d5a4e885-delete. (kafka.log.LogManager)
+[2018-09-12 11:21:13,565] INFO Deleting index D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs\car-data-1.552b486997674afa8a6bb0fd8a92795c-delete\00000000000000000000.index (kafka.log.OffsetIndex)
+[2018-09-12 11:21:13,565] INFO Deleting index D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs\car-data-1\00000000000000000000.timeindex (kafka.log.TimeIndex)
+[2018-09-12 11:21:13,581] INFO Deleted log for partition car-data-1 in D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs\car-data-1.552b486997674afa8a6bb0fd8a92795c-delete. (kafka.log.LogManager)
+[2018-09-12 11:22:15,279] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions car-data-12,car-data-9,car-data-0,car-data-6,car-data-8,car-data-5,car-data-7,car-data-3,car-data-10,car-data-4,car-data-1,car-data-11,car-data-2 (kafka.server.ReplicaFetcherManager)
+[2018-09-12 11:22:15,279] INFO Completed load of log car-data-5 with 1 log segments and log end offset 0 in 0 ms (kafka.log.Log)
+[2018-09-12 11:22:15,295] INFO Created log for partition [car-data,5] in D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs with properties {compression.type -> producer, message.format.version -> 0.10.2-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> true, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2018-09-12 11:22:15,295] INFO Partition [car-data,5] on broker 0: No checkpointed highwatermark is found for partition car-data-5 (kafka.cluster.Partition)
+[2018-09-12 11:22:15,295] INFO Completed load of log car-data-2 with 1 log segments and log end offset 0 in 0 ms (kafka.log.Log)
+[2018-09-12 11:22:15,310] INFO Created log for partition [car-data,2] in D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs with properties {compression.type -> producer, message.format.version -> 0.10.2-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> true, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2018-09-12 11:22:15,310] INFO Partition [car-data,2] on broker 0: No checkpointed highwatermark is found for partition car-data-2 (kafka.cluster.Partition)
+[2018-09-12 11:22:15,326] INFO Completed load of log car-data-12 with 1 log segments and log end offset 0 in 16 ms (kafka.log.Log)
+[2018-09-12 11:22:15,326] INFO Created log for partition [car-data,12] in D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs with properties {compression.type -> producer, message.format.version -> 0.10.2-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> true, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2018-09-12 11:22:15,326] INFO Partition [car-data,12] on broker 0: No checkpointed highwatermark is found for partition car-data-12 (kafka.cluster.Partition)
+[2018-09-12 11:22:15,342] INFO Completed load of log car-data-9 with 1 log segments and log end offset 0 in 16 ms (kafka.log.Log)
+[2018-09-12 11:22:15,342] INFO Created log for partition [car-data,9] in D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs with properties {compression.type -> producer, message.format.version -> 0.10.2-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> true, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2018-09-12 11:22:15,357] INFO Partition [car-data,9] on broker 0: No checkpointed highwatermark is found for partition car-data-9 (kafka.cluster.Partition)
+[2018-09-12 11:22:15,357] INFO Completed load of log car-data-6 with 1 log segments and log end offset 0 in 0 ms (kafka.log.Log)
+[2018-09-12 11:22:15,373] INFO Created log for partition [car-data,6] in D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs with properties {compression.type -> producer, message.format.version -> 0.10.2-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> true, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2018-09-12 11:22:15,373] INFO Partition [car-data,6] on broker 0: No checkpointed highwatermark is found for partition car-data-6 (kafka.cluster.Partition)
+[2018-09-12 11:22:15,388] INFO Completed load of log car-data-3 with 1 log segments and log end offset 0 in 0 ms (kafka.log.Log)
+[2018-09-12 11:22:15,404] INFO Created log for partition [car-data,3] in D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs with properties {compression.type -> producer, message.format.version -> 0.10.2-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> true, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2018-09-12 11:22:15,404] INFO Partition [car-data,3] on broker 0: No checkpointed highwatermark is found for partition car-data-3 (kafka.cluster.Partition)
+[2018-09-12 11:22:15,466] INFO Completed load of log car-data-0 with 1 log segments and log end offset 0 in 46 ms (kafka.log.Log)
+[2018-09-12 11:22:15,466] INFO Created log for partition [car-data,0] in D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs with properties {compression.type -> producer, message.format.version -> 0.10.2-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> true, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2018-09-12 11:22:15,482] INFO Completed load of log car-data-10 with 1 log segments and log end offset 0 in 16 ms (kafka.log.Log)
+[2018-09-12 11:22:15,482] INFO Created log for partition [car-data,10] in D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs with properties {compression.type -> producer, message.format.version -> 0.10.2-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> true, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2018-09-12 11:22:15,498] INFO Partition [car-data,10] on broker 0: No checkpointed highwatermark is found for partition car-data-10 (kafka.cluster.Partition)
+[2018-09-12 11:22:15,498] INFO Completed load of log car-data-7 with 1 log segments and log end offset 0 in 0 ms (kafka.log.Log)
+[2018-09-12 11:22:15,513] INFO Created log for partition [car-data,7] in D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs with properties {compression.type -> producer, message.format.version -> 0.10.2-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> true, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2018-09-12 11:22:15,513] INFO Partition [car-data,7] on broker 0: No checkpointed highwatermark is found for partition car-data-7 (kafka.cluster.Partition)
+[2018-09-12 11:22:15,529] INFO Completed load of log car-data-4 with 1 log segments and log end offset 0 in 16 ms (kafka.log.Log)
+[2018-09-12 11:22:15,529] INFO Created log for partition [car-data,4] in D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs with properties {compression.type -> producer, message.format.version -> 0.10.2-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> true, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2018-09-12 11:22:15,529] INFO Partition [car-data,4] on broker 0: No checkpointed highwatermark is found for partition car-data-4 (kafka.cluster.Partition)
+[2018-09-12 11:22:15,544] INFO Completed load of log car-data-1 with 1 log segments and log end offset 0 in 0 ms (kafka.log.Log)
+[2018-09-12 11:22:15,544] INFO Created log for partition [car-data,1] in D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs with properties {compression.type -> producer, message.format.version -> 0.10.2-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> true, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2018-09-12 11:22:15,560] INFO Completed load of log car-data-11 with 1 log segments and log end offset 0 in 0 ms (kafka.log.Log)
+[2018-09-12 11:22:15,560] INFO Created log for partition [car-data,11] in D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs with properties {compression.type -> producer, message.format.version -> 0.10.2-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> true, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2018-09-12 11:22:15,560] INFO Partition [car-data,11] on broker 0: No checkpointed highwatermark is found for partition car-data-11 (kafka.cluster.Partition)
+[2018-09-12 11:22:15,576] INFO Completed load of log car-data-8 with 1 log segments and log end offset 0 in 0 ms (kafka.log.Log)
+[2018-09-12 11:22:15,576] INFO Created log for partition [car-data,8] in D:\programs\ApacheKafka\kafka-training\kafka\programsApacheKafkakafka-trainingkafkalogs with properties {compression.type -> producer, message.format.version -> 0.10.2-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> true, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2018-09-12 11:22:15,576] INFO Partition [car-data,8] on broker 0: No checkpointed highwatermark is found for partition car-data-8 (kafka.cluster.Partition)
+[2018-09-12 11:29:44,017] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2018-09-12 11:39:44,015] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2018-09-12 11:49:44,017] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2018-09-12 11:59:44,025] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
